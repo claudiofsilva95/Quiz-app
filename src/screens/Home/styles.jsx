@@ -30,7 +30,18 @@ const styles = StyleSheet.create({
     },
 
     buttonContainer: {
-        marginTop: 100
+        marginTop: 60
+    },
+
+    recordView: {
+        alignItems: 'center',
+        marginBottom: 40
+    },
+
+    recordViewText: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: '#ccc'
     },
     button: {        
         marginBottom: 30,
@@ -39,7 +50,7 @@ const styles = StyleSheet.create({
         height: 75,
         borderRadius: 20,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'center',        
     },
     buttonText :{        
         fontSize: 20,        
@@ -47,18 +58,18 @@ const styles = StyleSheet.create({
     buttonPlay: {
         backgroundColor: '#80b474',
         borderWidth: 2,
-        borderColor: '#ffffff97'        
+        borderColor: '#cccccc97'        
     },
     buttonAbout: {
-        borderColor: '#ffffff97',
+        borderColor: '#cccccc97',
         borderWidth: 2
     },
     buttonPlayText: {
-        color: '#fff',
+        color: '#ccc',
         fontWeight: 'bold'
     },
     buttonAboutText: {
-        color: '#fff',
+        color: '#ccc',
         fontWeight: 'bold'
     }
     

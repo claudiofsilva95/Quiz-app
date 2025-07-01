@@ -14,8 +14,9 @@ const styles = StyleSheet.create({
     },
     categorieText:{ 
         color: '#fff',
-        fontSize: 30
+        fontSize: 30,        
     }
+
 });
 
 export { styles };

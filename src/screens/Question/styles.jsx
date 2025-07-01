@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         color: '#a1e5b0',
         paddingTop: 50,
-        fontWeight: 'bold'
+        fontWeight: 'bold',        
     },
     questionContainer: {
         alignItems: 'center',

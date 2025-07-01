@@ -3,6 +3,10 @@ import Home from "../screens/Home";
 import Dashboard from '../screens/Dashboard';
 import Question from "../screens/Question";
 import Result from "../screens/Result";
+import Settings from "../screens/Settings";
+import About from "../screens/About";
+import PrivacyPolicy from "../screens/PrivacyPolicy";
+import SendFeedback from "../screens/SendFeedback";
 
 const AppStack = createNativeStackNavigator();
 
@@ -23,14 +27,6 @@ const AppRoutes = () => {
                 component={Dashboard}
                 options={{
                     headerShown: false
-                    // headerStyle: {
-                    //     backgroundColor: '#1f1147',
-                    //     borderBottomWidth: 1,
-                    //     borderBottomColor: '#00b94a',                        
-                    // },
-                    // headerTintColor: '#fff',
-                    // headerTitle: 'Voltar',
-                    // headerBackTitleVisible: false
                 }}
             />
             <AppStack.Screen 
@@ -46,6 +42,38 @@ const AppRoutes = () => {
                 options={{
                     headerShown: false
                 }}                
+            />
+
+            <AppStack.Screen
+                name="Settings"
+                component={Settings}
+                options={{
+                    headerShown: false
+                }}
+            />
+
+            <AppStack.Screen
+                name="About"
+                component={About}
+                options={{
+                    headerShown: false
+                }}
+            />
+            
+            <AppStack.Screen
+                name='PrivacyPolicy'
+                component={PrivacyPolicy}
+                options={{
+                    headerShown: false
+                }}
+            />
+
+            <AppStack.Screen 
+                name="SendFeedback"
+                component={SendFeedback}
+                options={{
+                    headerShown: false
+                }}
             />
             
         </AppStack.Navigator>

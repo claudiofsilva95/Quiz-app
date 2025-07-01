@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#18535f',
         flexDirection: 'row',        
         alignItems: 'center',
-        marginTop: 10
+        paddingTop: 10
     },
     headerButton: {                        
         flexDirection: 'row',
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         color: '#fff',
-        marginLeft: 60,
+        marginLeft: 30,
         marginTop: 30,
         color: '#a1e5b0',
         fontWeight: 'bold'        
